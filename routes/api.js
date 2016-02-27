@@ -21,8 +21,7 @@ router.get('/api/1.0', function(req, res, next) {
 	   ]
 	}
 
-	console.log(response);
-  	res.send(response);
+  	res.json(response);
 });
 
 module.exports = router;
