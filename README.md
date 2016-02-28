@@ -1,4 +1,4 @@
-# NodePromptManager
+# NodePromptManager -- starter template for building Prompt bots with Nodejs
 
 Boiler Plate for Node bots on the promptapp.io platform
 
@@ -7,6 +7,14 @@ Heard about this awesome new app called Prompt?
 Wanna start developing your own Prompt bots using Node.js? 
 
 This boilerplate repository should be enough to get you started. 
+
+#What our bot does
+
+This hello world bot is as simple as a bot can be in Prompt. If you're familiar with Prompt, this bot receieves a message from an SMS text sent by the user and returns that message to them. 
+
+Ex: ```@Testing_00028 Prompt is awesome!```
+
+Response: ```"Hello World! You said: Prompt is awesome!"```
 
 #Set Up
 
