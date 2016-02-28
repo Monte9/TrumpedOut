@@ -1,12 +1,14 @@
 # NodePromptManager -- starter template for building Prompt bots with Nodejs
 
-Boiler Plate for Node bots on the promptapp.io platform
+Boiler Plate for Node bots on the https://promptapp.io platform
 
 Heard about this awesome new app called Prompt? 
 
+![alt-image](https://cloud.githubusercontent.com/assets/5935411/13377108/d54d2cce-dd81-11e5-9d9e-4bfd250e5a2d.JPEG)
+
 Wanna start developing your own Prompt bots using Node.js? 
 
-This boilerplate repository should be enough to get you started. 
+This boilerplate repository should be enough to get you started developing Prompt bots with Nodejs. 
 
 #What our bot does
 
@@ -64,4 +66,4 @@ Once you're finished with this, you can head over to the api.js file and start i
 Happy Hacking!
 
 #____________________________
-Peter and Montee -- HackTech16
+@PeterKaminski09 and @Montee9 -- HackTech16
