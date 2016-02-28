@@ -7,7 +7,7 @@ var listDictionary = {
   			"dominos" : ["pizza", "hungry", "eat"],
 		};
 
-		return dict["recipe"];
+		return dict["recipe"][1];
     }
 
 }
