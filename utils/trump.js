@@ -1,11 +1,5 @@
 var generateQuote = {
 
-  newQuote: function(body) {
-
-  	return findQuote();
-
-  }
-
   findQuote : function() {
         var dict = {
   			"1" : "Make America Great Again!",
@@ -17,9 +11,15 @@ var generateQuote = {
 		};
 
 		return dict["2"];
-    }
+    },
+
+    newQuote: function(body) {
+
+    return this.findQuote();
+
+  }
 
 }
 
-module.exports = returnQuote;
+module.exports = generateQuote;
 
