@@ -15,12 +15,12 @@ var listDictionary = {
   				//alert( index + ": " + value );
   				console.log( "index", index, "value", value );
 			
-			return dict[key][value];
+				return dict[key][value];
 
 			});
 		});
 
-		
+		return dict["yelp"][2];
     }
 
 }
