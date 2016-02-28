@@ -1,8 +1,8 @@
-# TheDonald -- [Prompt App](www.promptapp.io) bot 
+# TheDonald -- [Prompt](http://www.promptapp.io) bot 
 
 #What this bot does
 
-TheDonald is a simple [Prompt App](www.promptapp.io) bot written in Node.js+jQuery that spits out the most outrageous statements said by future President Donald J Trump. NOT!!! This bot receieves a message from an SMS text/ Slack/ Prompt website and returns a new Donald Trump quote message to the user.
+TheDonald is a simple [Prompt App](http://www.promptapp.io/login) bot written in Node.js+jQuery that spits out the most outrageous statements said by future President Donald J Trump. NOT!!! This bot receives a message from an SMS/Slack/Prompt website and returns a new Donald Trump quote to the user.
 
 Ex: ```@trump_00033 say a quote```
 
