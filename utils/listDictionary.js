@@ -1,13 +1,26 @@
 var listDictionary = {
 
   searchforKeyword : function() {
-        var dict = {
+        
+  	var dict = {
   			"recipe" : ["cook", "hungry", "eat"],
   			"yelp" : ["hungry", "eat", "restaurants"],
   			"dominos" : ["pizza", "hungry", "eat"],
 		};
 
-		return dict["recipe"][1];
+        $.each( dict, function( key, value ) {
+  			//alert( key + ": " + value );
+  			console.log( "index", key, "value", value );
+  			jquery.each( x, function( index, value ) {
+  				//alert( index + ": " + value );
+  				console.log( "index", index, "value", value );
+			
+			return dict[key][value];
+
+			});
+		});
+
+		
     }
 
 }
