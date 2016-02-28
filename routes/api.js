@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var requestHelper = require('../utils/requestHelper');
 var trumpQuotes = require('../utils/trump');
+var setimentCommands = require('../utils/listDictionary');
 
 /* Main entry point for prompt requests */
 router.post('/api/1.0', function(req, res, next) {
@@ -12,13 +13,16 @@ router.post('/api/1.0', function(req, res, next) {
 	//Get a new trump Quote
 	var quote = trumpQuotes.newQuote();
 
+	//Return a array of commands based on input sentiment
+	var commands = setimentCommands.searchforKeyword();
+
   	//Create a response to return to the user
   	var response = {
 	   sendmms: true,
 	   showauthurl: false,
 	   authstate: null,
-	   text: "Hello World! You said: " + quote,
-	   speech: "Hello World! You said: " + quote,
+	   text: "Hello World! You said: " + commands,
+	   speech: "Hello World! You said: " + commands,
 	   status: "OK",
 	   webhookreply: null,
 	   images: [
