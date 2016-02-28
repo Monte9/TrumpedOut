@@ -1,16 +1,16 @@
-# TrumpedOut -- [Prompt App](www.promptapp.io) bot
+# TheDonald -- [Prompt App](www.promptapp.io) bot 
 
 #What this bot does
 
-TrumpedOut is a simple [Prompt App](www.promptapp.io) bot written in with Nodejs+jQuery that spits out the most outrageous tweets said by future President Donald J Trump. NOT!!! If you're not familiar with Prompt; this bot receieves a message from an SMS text/ Slack/ Prompt website and returns a new Donald Trump quote message to the user.
+TheDonald is a simple [Prompt App](www.promptapp.io) bot written in Node.js+jQuery that spits out the most outrageous statements said by future President Donald J Trump. NOT!!! This bot receieves a message from an SMS text/ Slack/ Prompt website and returns a new Donald Trump quote message to the user.
 
 Ex: ```@trump_00033 say a quote```
 
-Response: ```"I will build a great wall – and nobody builds walls better than me, believe me – and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."```
+Response: ```'I think the only difference between me and the other candidates is that I’m more honest and my women are more beautiful.' - TheDonald```
 
 # Testing it out
 
-Head over to the test interface on [http://promptapp.io/](http://promptapp.io/) to enter the command:
+Head over to the [Prompt Developer Test Interface](http://developer.promptapp.io/testinterface) and enter the command:
 
 ![alt-img](demo.png)
 
