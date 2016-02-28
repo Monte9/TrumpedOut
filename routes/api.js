@@ -17,8 +17,8 @@ router.post('/api/1.0', function(req, res, next) {
 	   sendmms: true,
 	   showauthurl: false,
 	   authstate: null,
-	   text: "Hello World! You said: " + quote,
-	   speech: "Hello World! You said: " + quote,
+	   text: "\'" + quote + "\' - The Donald",
+	   speech: "\'" + quote + "\' - The Donald",
 	   status: "OK",
 	   webhookreply: null,
 	   images: [
