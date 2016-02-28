@@ -66,4 +66,4 @@ Once you're finished with this, you can head over to the api.js file and start i
 Happy Hacking!
 
 #____________________________
-@PeterKaminski09 and @Montee9 -- HackTech16
+![@PeterKaminski09](http://github.com/peterkaminski09) and ![@Monte9](http://github.com/monte9) -- HackTech16
